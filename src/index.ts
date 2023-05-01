@@ -6,7 +6,10 @@ import {
   sendResult,
   shouldRenderGraphiQL,
 } from "graphql-helix";
+import "./schema";
+import { schemaComposer } from "graphql-compose";
 
+const schema = schemaComposer.buildSchema();
 const app = fastify({ logger: true });
 
 app.all("/graphql", async (req, res) => {
