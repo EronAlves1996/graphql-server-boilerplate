@@ -1,0 +1,19 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node out/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.17.0",
+    "graphql": "^16.6.0",
+    "graphql-compose": "^9.0.10",
+    "graphql-helix": "^1.13.0",
+    "typescript": "^5.0.4"
+  }
+}
