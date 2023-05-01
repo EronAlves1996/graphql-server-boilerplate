@@ -22,6 +22,7 @@ app.all("/graphql", async (req, res) => {
 
   // Determine whether we should render GraphiQL instead of returning an API response
   if (shouldRenderGraphiQL(request)) {
+    res.type("text/html");
     res.send(renderGraphiQL());
   } else {
     // Extract the Graphql parameters from the request
