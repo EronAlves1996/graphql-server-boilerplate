@@ -15,5 +15,8 @@
     "graphql-compose": "^9.0.10",
     "graphql-helix": "^1.13.0",
     "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3"
   }
 }
